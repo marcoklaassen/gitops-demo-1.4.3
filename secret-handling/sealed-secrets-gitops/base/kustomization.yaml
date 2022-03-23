@@ -1,5 +1,3 @@
 resources:
 - 01-namespaces/secrets-environment.yaml
-- 02-operator/catalog-source.yaml
-- 02-operator/operator-group.yaml
-- 02-operator/subscription.yaml
+- 02-controller/controller.yaml
