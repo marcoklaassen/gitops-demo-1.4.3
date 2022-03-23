@@ -1,3 +1,2 @@
 resources:
 - 01-namespaces/secrets-environment.yaml
-- 02-secrets/foo-secret-sops.yaml
