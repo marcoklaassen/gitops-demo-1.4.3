@@ -44,18 +44,13 @@ spec:
           httpGet:
             path: /healthz
             port: http
-        securityContext:
-          readOnlyRootFilesystem: true
-          runAsNonRoot: true          
         stdin: false
         tty: false
         volumeMounts:
         - mountPath: /tmp
           name: tmp
       imagePullSecrets: []
-      initContainers: []
-      securityContext:
-        fsGroup: 65534
+      initContainers: []      
       serviceAccountName: sealed-secrets-controller
       terminationGracePeriodSeconds: 30
       volumes:
