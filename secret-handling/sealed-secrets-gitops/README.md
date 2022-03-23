@@ -8,5 +8,7 @@
 
 ## Cluster Side controller
 
+First apply the CustomResourceDefinition `SealedSecret` to your OpenShift. 
+
 The cluster side controller will be deployed by our sealed secret argo app.
 The controller is located in `base/02-controller/controller.yaml`.
