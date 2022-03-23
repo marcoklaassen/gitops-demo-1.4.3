@@ -46,8 +46,7 @@ spec:
             port: http
         securityContext:
           readOnlyRootFilesystem: true
-          runAsNonRoot: true
-          runAsUser: 1001
+          runAsNonRoot: true          
         stdin: false
         tty: false
         volumeMounts:
