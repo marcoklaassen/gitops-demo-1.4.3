@@ -1,3 +1,4 @@
 resources:
 - 01-namespaces/secrets-environment.yaml
 - 02-controller/controller.yaml
+- 03-secret/foo-secret.yaml
