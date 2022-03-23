@@ -12,3 +12,8 @@
 * set Fingerprint with `export SOPS_PGP_FP="<your public key fingerprint>"`
 * create secret with `sops foo-secret-sops.yaml` (opens your editor for editing)
 * Save and close file and get the encrypted file
+
+## Links
+
+* https://github.com/argoproj/argo-cd/tree/master/docs/operator-manual
+* https://github.com/viaduct-ai/kustomize-sops#argo-cd-integration-

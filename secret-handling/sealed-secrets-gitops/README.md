@@ -20,3 +20,8 @@ Create your decrypted secret and encrypt this Secret with
 
 
 Commit the new `foo-secret.yaml` to your git and push it. After ArgoCD has refreshed the sealed-secrets app, your sealed-secret will be applied.
+
+
+## Links
+
+* https://github.com/bitnami-labs/sealed-secrets
