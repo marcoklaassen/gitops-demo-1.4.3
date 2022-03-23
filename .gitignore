@@ -1,2 +1,3 @@
 secrets/
 tokens
+secret-handling/sealed-secrets-gitops/base/03-secret/decrypted-foo-secret.yaml
