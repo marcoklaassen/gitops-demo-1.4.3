@@ -14,7 +14,7 @@ First apply the CustomResourceDefinition `SealedSecret` to your OpenShift.
 The cluster side controller will be deployed by our sealed secret argo app.
 The controller is located in `base/02-controller/controller.yaml`.
 
-Create your decrypted secret and encrypt this Secret with
+Create your encrypted secret and encrypt this Secret with
 
 `kubeseal --controller-namespace sealed-secrets --format yaml <secret-handling/sealed-secrets-gitops/base/03-secret/decrypted-foo-secret.yaml >secret-handling/sealed-secrets-gitops/base/03-secret/foo-secret.yaml`
 
